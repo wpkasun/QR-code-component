@@ -1,0 +1,49 @@
+:root {
+  --slate300: hsl(212, 45%, 89%);
+  --slate500: hsl(216, 15%, 48%);
+  --slate900: hsl(218, 44%, 22%);
+  --black-transparent: hsla(0, 100%, 0%, 0.1);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: var(--slate300);
+}
+
+.card {
+  box-sizing: border-box;
+  width: 320px;
+  padding: 16px;
+  padding-bottom: 24px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px var(--black-transparent);
+  background: white;
+  font-family: Outfit;
+  text-align: center;
+}
+
+.qr {
+  border-radius: 10px;
+  width: 100%;
+  aspect-ratio: 1;
+  background-color: var(--slate900);
+}
+
+.title {
+  margin-inline: 15px;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--slate900);
+}
+
+.description {
+  margin-inline: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--slate500);
+}
