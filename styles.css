@@ -29,8 +29,6 @@ body {
 
 .qr {
   border-radius: 10px;
-  width: 100%;
-  aspect-ratio: 1;
   background-color: var(--slate900);
 }
 
